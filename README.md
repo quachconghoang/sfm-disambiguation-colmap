@@ -49,7 +49,7 @@ conda install -c open3d-admin -c conda-forge open3d -y
 python -m pip install -e .
 ```
 
-We also provide the datasets we use via [google drive](https://drive.google.com/file/d/1y6qB16R8kiyMfUjCHI5rFnZU_fRacQcc/view?usp=sharing). Please download it and then unzip it under the folder `datasets` to have the following layout:
+We also provide the datasets we use via [google drive](https://drive.google.com/file/d/14z33byqiUzO096uKjCe4ZJ2A_gc-R6e1/view?usp=drive_link). Please download it and then unzip it under the folder `datasets` to have the following layout:
 
 ```
 |---datasets
@@ -492,7 +492,7 @@ For the reproduction of the above results for Kataria's method, we put the chang
 <details>
 <summary>[Click to expand]</summary>
 
-We mainly use the datasets from [Yan's repo](https://github.com/yanqingan/SfM_Disambiguation) and [Heinly's website](https://www.cs.unc.edu/~jheinly/duplicate_structure.html), where they include some datasets from [Roberts et al.](https://snsinha.github.io/pdfs/RobertsCVPR2011.pdf) and [Jiang et al.](http://www.cs.sfu.ca/~pingtan/Papers/cvpr12_sfm.pdf). We packed the cleaned-up version of these datasets (with images renamed and features removed) into a [zip file](https://drive.google.com/file/d/1y6qB16R8kiyMfUjCHI5rFnZU_fRacQcc/view?usp=sharing) for downloads.
+We mainly use the datasets from [Yan's repo](https://github.com/yanqingan/SfM_Disambiguation) and [Heinly's website](https://www.cs.unc.edu/~jheinly/duplicate_structure.html), where they include some datasets from [Roberts et al.](https://snsinha.github.io/pdfs/RobertsCVPR2011.pdf) and [Jiang et al.](http://www.cs.sfu.ca/~pingtan/Papers/cvpr12_sfm.pdf). We packed the cleaned-up version of these datasets (with images renamed and features removed) into a [zip file](https://drive.google.com/file/d/14z33byqiUzO096uKjCe4ZJ2A_gc-R6e1/view?usp=drive_link) for downloads.
 
 To experiment with other datasets, you can place new datasets under `yan2017` or `heinly2014` with the following structure:
 
