@@ -33,7 +33,7 @@ def summarize_scene(tracks, visible_tracks, visible_keypoints, coverage_thres,
 
     assert len(visible_tracks) == len(visible_keypoints)
     num_images = len(visible_tracks)
-    img_included = np.zeros((num_images,), dtype=np.bool)
+    img_included = np.zeros((num_images,), dtype=np.bool_)
 
     cur_coverage = 0
 

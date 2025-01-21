@@ -22,7 +22,7 @@ def compute_tracks(num_images, num_keypoints_list, matches_list, track_degree,
     # TODO: try filtering out inconsistent tracks
     # as done in the Bundler's commented code?
     logging.info("----------ComputeTracks Begins----------")
-    img_marked = np.zeros((num_images,), dtype=np.bool)
+    img_marked = np.zeros((num_images,), dtype=np.bool_)
     touched = []
 
     # a track is simply a list of (image_id, keypoint_id)
@@ -31,7 +31,7 @@ def compute_tracks(num_images, num_keypoints_list, matches_list, track_degree,
 
     max_num_keypoints = max(num_keypoints_list)
     keypoints_visited = np.zeros((num_images, max_num_keypoints),
-                                 dtype=np.bool)
+                                 dtype=np.bool_)
 
     # image is 1-based indexed, keypoints is 0-based indexed
     # i here is 0-based so it can be used directly as index
